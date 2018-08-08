@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>PHP trainee</title>
-</head>
+	<head>
+		<title>PHP trainee</title>
+	</head>
 
-<body>
-<h2>Hello World</h2>
-</body>
+	<body>
+		<h2>Hello World</h2>
+	</body>
 
 </html>
