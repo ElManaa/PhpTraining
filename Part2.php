@@ -6,6 +6,6 @@
  $enseignant->age = "35";
  $enseignant->matiere = "maths";
 
- var_dump ($enseignant);
+ var_dump($enseignant);
 
 ?>

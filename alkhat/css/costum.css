@@ -1,0 +1,165 @@
+@font-face {
+    font-family: FuturaLT-Book;
+    src: url(../fonts/FuturaLT-Book.otf);
+}
+
+@font-face {
+    font-family: FuturaLT-Light;
+    src: url(../fonts/FuturaLT-Light.otf);
+}
+
+@font-face {
+    font-family: FuturaLT-BookOblique;
+    src: url(../fonts/FuturaLT-BookOblique.otf);
+}
+
+body {
+    margin : 0px ;
+}
+
+h1 {
+    font-family: FuturaLT-Light ; 
+    color : white;
+    margin-bottom: 50px;
+    font-size: 33px
+}
+
+h4 {
+    font-family : FuturaLT-BookOblique; 
+    color: #fae935;
+    margin-bottom: 20px;
+    font-size: 19px
+}
+
+p {
+    font-family: FuturaLT-Light ; 
+    color: white ; 
+    font-size: 13px;
+    text-align: justify;
+    
+}
+
+
+button {
+
+    background-color: transparent;
+    color: white;
+    font-size: 19px;
+    line-height: 2;
+    font-family: FuturaLT-Light;
+    letter-spacing: 1px;
+    border: 1px solid white;
+}
+
+.img_service {
+    margin-bottom: 20px
+}
+.headPgae {
+    background-image: url("../images/bg_home.jpg");
+    height: 768px;
+}
+
+.newSection {
+    background-image: url("../images/bg_1.jpg");
+}
+.newSection2 {
+    background-image: url("../images/bg_2.jpg");
+}
+
+.logo {
+    margin-top:15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerMenu {
+    text-align: right;
+    padding-top: 43px;
+}
+
+.headerMenu span {
+    color : white ;
+    margin : 0px 23px 5px 5px;
+    font-family: FuturaLT-Book;
+
+}
+.headerMenu span.selected 
+{
+    color: #fae935;
+}
+.img_separator {
+margin-left: 6px;
+margin-right: 5px;
+}
+
+.line {
+    color: white;
+    font-size: 18px;
+}
+
+
+.menudiv 
+{
+    padding-top: 19px;
+    display: inline;
+    float: right ;
+}
+
+.container 
+{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+ 
+.wrapper {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-gap: 10px;
+   
+    color: #444;
+  }
+
+  .wrapper4 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 10px;
+   
+    color: #444;
+  }
+ 
+
+.inline
+{
+    display: inline;
+}
+
+.text-right
+{
+    text-align: right;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.pr25
+{
+    padding-right: 25%;
+}
+
+.w50{
+    width: 50%
+}
+
+.w59{
+    width: 59%
+}
+
+.pl20 {
+    padding-left: 20%
+}
+.pl21 {
+    padding-left: 21%
+}
