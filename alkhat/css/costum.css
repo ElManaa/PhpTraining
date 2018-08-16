@@ -210,6 +210,15 @@ margin-right: 5px;
     text-align: center;
   }
 
+  .title-footer {
+    font-size: 24px;
+    color: #fae935;
+  }
+
+  .wrapper-footer a {
+    font-size: 21px;
+    text-transform: none ;
+  }
 .inline
 {
     display: inline;
@@ -254,4 +263,61 @@ margin-right: 5px;
 }
 .mb0{
     margin-bottom: 0px
+}
+
+
+.mb25
+{
+    margin-bottom: 25px
+}
+
+
+.twitter {
+    background: url('../images/twitter.png'); 
+    width: 61px;
+    height: 34px;
+    display: block;
+    float: left;
+}
+
+
+.facebook {
+    background: url('../images/facebook.png'); 
+    width: 61px;
+    height: 35px;
+    display: block;
+    float: left;
+}
+
+.youtube {
+    background: url('../images/youtube.png'); 
+    width: 61px;
+    height: 35px;
+    display: block;
+    float: left;
+}
+.email {
+    background: url('../images/email.png'); 
+    width: 61px;
+    height: 35px;
+    display: block;
+    float: left;
+}
+.listeicons {
+    list-style-type: none;
+}
+
+.btn-container{
+    width: 200px;
+    display: inline-flex;
+}
+
+.btn-no-right-border{
+    border-right-width: 0px;
+}
+
+.right-arrow {
+    height: 39px; 
+    
+    transform: translateX(-34%);
 }
